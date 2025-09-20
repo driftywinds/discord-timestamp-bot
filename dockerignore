@@ -1,0 +1,36 @@
+# Ignore environment files (security)
+.env
+.env.*
+
+# Ignore version control
+.git
+.gitignore
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore documentation
+README.md
+*.md
+
+# Ignore Docker files (not needed in container)
+Dockerfile
+docker-compose.yml
+.dockerignore
