@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  discord-timestamp-bot:
+    image: ghcr.io/driftywinds/discord-timestamp-bot
+    container_name: timestamp-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./.env:/app/.env:ro
+    # Uncomment the following lines if you want to see logs
+    # logging:
+    #   driver: "json-file"
+    #   options:
+    #     max-size: "10m"
+    #     max-file: "3"
