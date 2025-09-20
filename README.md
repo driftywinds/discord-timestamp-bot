@@ -2,7 +2,7 @@
 
 Says what it does, you can try it out here - [https://003274.xyz/discord-timestamps](https://003274.xyz/discord-timestamps)
 
-[![Pulls](https://img.shields.io/docker/pulls/driftywinds/twitchrise-bot.svg?style=for-the-badge)](https://img.shields.io/docker/pulls/driftywinds/twitchrise-bot.svg?style=for-the-badge)
+[![Pulls](https://img.shields.io/docker/pulls/driftywinds/discord-timestamp-bot.svg?style=for-the-badge)](https://img.shields.io/docker/pulls/driftywinds/discord-timestamp-bot.svg?style=for-the-badge)
 
 Also available on Docker Hub - [```driftywinds/discord-timestamp-bot:latest```](https://hub.docker.com/repository/docker/driftywinds/discord-timestamp-bot/general)
 
