@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   discord-timestamp-bot:
-    image: ghcr.io/driftywinds/discord-timestamp-bot
+    image: ghcr.io/driftywinds/discord-timestamp-bot:latest
     container_name: timestamp-bot
     restart: unless-stopped
     env_file:
